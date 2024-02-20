@@ -38,7 +38,8 @@ if __name__ == "__main__":
 
     print(length(llist))
     llprint(llist)
-    #your tests go here
-    
+
+from genfinite import lst
+print(length(lst))    
 
 
