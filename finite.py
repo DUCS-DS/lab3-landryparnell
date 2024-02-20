@@ -14,12 +14,12 @@ def length(lst):
 def llprint(lst):
     """print a finite linked list"""
     node = lst.head
+    if node is None:
+        print('empty list')
     while node is not None:
         print(node.val, end=' ')
         node = node.next
     print()
-
-#llist = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
 
 if __name__ == "__main__":
